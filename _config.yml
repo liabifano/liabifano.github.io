@@ -1,0 +1,44 @@
+# Dependencies
+markdown: kramdown
+
+kramdown:
+  extensions:
+   - no_intra_emphasis
+   - fenced_code_blocks
+   - autolink
+   - strikethrough
+   - superscript
+   - footnotes
+  auto_ids:      true
+  footnote_nr:   1
+  entity_output: as_char
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+
+# Setup
+title: liabifano
+tagline: approximately normal
+url: https://liabifano.github.io/
+paginate: 7
+baseurl: /
+exclude: ["*.org"]
+permalink: pretty
+
+excerpt_separator: '<p hidden> <span class="underline">excerpt-separator</span> </p>'
+
+author:
+  name: Liamarcia Bifano
+  url: https://github.com/liabifano
+
+  github:
+    repo: https://github.com/liabifano/liabifano.github.io
+
+page_list:  { 'About':'/about',
+              'Archive':'/archive',
+            }
+
+footer-links:
+  github: liabifano
+
+gems:
+  - jekyll-paginate
