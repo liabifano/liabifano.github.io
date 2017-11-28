@@ -18,7 +18,7 @@ kramdown:
 # Setup
 title: liabifano
 tagline: approximately normal
-url: https://liabifano.github.io/
+url: liabifano.github.io
 paginate: 7
 baseurl: /
 exclude: ["*.org"]
