@@ -1,4 +1,35 @@
-# Dependencies
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               liabifano
+tagline:             approximately normal
+url:                 https://liabifano.github.io
+paginate:            3
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Liamarcia Bifano
+  url:               https://github.com/liabifano/
+  email:             liabifano@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/liabifano/liabifano.github.io/
+
+
+page_list:  { 'About':'/about'}
+
+
 markdown: kramdown
 
 kramdown:
@@ -15,30 +46,15 @@ kramdown:
   toc_levels:    1..6
   smart_quotes:  lsquo,rsquo,ldquo,rdquo
 
-# Setup
-title: liabifano
-tagline: approximately normal
-url: liabifano.github.io
-paginate: 7
-baseurl: /
-exclude: ["*.org"]
-permalink: pretty
-
 excerpt_separator: '<p hidden> <span class="underline">excerpt-separator</span> </p>'
-
-author:
-  name: Liamarcia Bifano
-  url: https://github.com/liabifano
-
-  github:
-    repo: https://github.com/liabifano/liabifano.github.io
-
-page_list:  { 'About':'/about',
-              'Archive':'/archive',
-            }
 
 footer-links:
   github: liabifano
+#  twitter: liavbifano
+  linkedin: liamarcia-bifano
 
+
+# Gems
 gems:
   - jekyll-paginate
+  - jekyll-gist
