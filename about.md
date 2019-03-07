@@ -1,13 +1,20 @@
 ---
-layout: default
-title: About
+layout: page
+title: 
+subtitle: 
+permalink: /about/
 ---
 
-   My name is Lia, I'm statistician, I live in Lausanne and nowadays I pursue a master's degree at [EPFL](https://ic.epfl.ch/computer-science).         
-
-   My main interest is to apply Python, JavaScript and Scala to analyse and visualize data. In this space I would like to show analysis of cool and "free" datasets.
+   Hello!! My name is Lia and I'm mostly interested on end-to-end automation of machine learning workflow, interactive data visualization and data analysis. 
    
-   As I'm writing about things that I find interesting and have just learnt, don't hesitate about point out mistakes.
-   If you have any comments or questions, just send me an [email](lia.bifano@gmail.com) 😉
-    
+   I'm a statistician &#10084; with working experience mostly with data analysis and deployment of online and batch machine learning models.
    
+   Nowadays I'm living in Lausanne and pursuing a master's degree at [EPFL](https://ic.epfl.ch/computer-science).
+   
+   If you have any comments, feedbacks and questions, just drop me an [email](liamarciavbifano@gmail.com).
+   
+<p>
+<sub>
+   Jekyll template extracted from <a href="https://github.com/kronik3r/daktilo">daktilo.</a>
+</sub>
+</p>
