@@ -7,13 +7,10 @@ categories: [machine-learning]
 ---
 
 
-# Model as a service up and running in AWS
-
-[![Build Status](http://img.shields.io/travis/liabifano/ml-aws.svg?style=flat)](https://travis-ci.org/liabifano/ml-aws)
-
+The code is available [here](https://github.com/liabifano/ml-aws) [![Build Status](http://img.shields.io/travis/liabifano/ml-aws.svg?style=flat)](https://travis-ci.org/liabifano/ml-aws)
 
 The goal of this project is to be some kind of tutorial to get up a cluster in AWS to run a predictive model as a REST service. 
-Besides that, the stackng of this tutorial allows have multiple version of the model which is great to retrain and do A/B test.
+Besides that, the stacking of this tutorial allows have multiple version of the model which is great to retrain and do A/B test.
 In the end of [`Step by step`](#step-by-step) you'll have a endpoint of cluster of machines in AWS to run the model and 
 access the results. The request's inputs and model's outputs will be also available in a postgres database. 
 
@@ -261,7 +258,3 @@ $ bash revert-deploy.sh -r $DOCKER_REPOSITORY_NAME \
 ```
 The requirements to run it are `{1, 4, 5}` and `psql`.
 
-
-## TODOs
-- Better way to pass DBSecurityGroup to cloudformation, query instead of fix it
-- Autoscaling's Criteria 
