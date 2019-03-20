@@ -12,9 +12,3 @@ permalink: /about/
    Nowadays I'm living in Lausanne and pursuing a master's degree at [EPFL](https://ic.epfl.ch/computer-science).
    
    If you have any comments, feedbacks and questions, just drop me an [email](liamarciavbifano@gmail.com).
-   
-<p>
-<sub>
-   Jekyll template extracted from <a href="https://github.com/kronik3r/daktilo">daktilo.</a>
-</sub>
-</p>

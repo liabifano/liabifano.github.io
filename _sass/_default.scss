@@ -50,7 +50,7 @@ blockquote {
 
     p {
         display: inline;
-        font-size: 20px;
+        font-size: 18px;
         color: $cloudy;
         font-weight: 400;
         &:before { content: "“ "; }
@@ -77,7 +77,7 @@ strong {
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
     color: $iron;
     display: block;
@@ -94,7 +94,7 @@ strong {
 
 .menu__entry {
     display: inline-block;
-    margin-right: 35px;
+    margin-right: 40px;
 
     &:last-child {
         margin-right: 0px;
@@ -140,11 +140,11 @@ strong {
 }
 
 .post-title__text {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .post-title__subtitle {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* =Post teasers */
@@ -165,14 +165,14 @@ strong {
 }
 
 .post-teaser__date {
-    font-size: 16px;
+    font-size: 20px;
     float: right;
     vertical-align: middle;
     color: $cloudy;
 }
 
 .empty-post-list {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     color: $iron;
     text-align: center;
