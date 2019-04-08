@@ -7,7 +7,7 @@ permalink: /about/
 
    Hello!! My name is Lia and I'm mostly interested on end-to-end automation of machine learning workflow, interactive data visualization and data analysis. 
    
-   I'm a statistician &#10084; with working experience mostly with data analysis and deployment of online and batch machine learning models.
+   I'm a statistician &#10084; with working experience mostly with data analysis and deployment of online and batch machine learning models. For further details you can access my <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">linkedin.</a>
    
    Nowadays I'm living in Lausanne and pursuing a master's degree at [EPFL](https://ic.epfl.ch/computer-science).
    
