@@ -28,7 +28,7 @@ That means, changing the web framework and model or even the programming languag
 - **NOTE**: The scripts are optimized to work with MacOS and if you hold a Linux or Windows, some modifications will be suggested.
 
 # Overview of AWS stack
-![stack](/resources/images/StackLayout.png)
+![stack](/resources/images/2018-03-20-machine-learning-in-aws/StackLayout.png)
 
 Each model version has a stack that contains:
 
